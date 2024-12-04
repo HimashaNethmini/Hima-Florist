@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
+    <Layout>
       <div>
         <Head>
           <title>Hima's Florist</title>
@@ -10,8 +12,10 @@ export default function Home() {
         </Head>
         {/* body */}
         <main>
-         <h1>Hi</h1>
+          <h1> I will definitely do this</h1>
+          <span> Will do within 2 weeks</span>
         </main>
       </div>
+    </Layout>
   );
 }
