@@ -23,7 +23,8 @@ const Header = () => {
       {/*  cart side*/}
       <div className={css.cartSide}>
         <div className={css.cart}>
-          <UilShoppingBag />
+          <UilShoppingBag size={35} color="#2E2E2E" />
+          <div className={css.badge}>1</div>
         </div>
       </div>
     </div>
