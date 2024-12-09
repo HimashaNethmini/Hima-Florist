@@ -12,8 +12,8 @@ export default function Home() {
         </Head>
         {/* body */}
         <main>
-          <h1> I will definitely do this</h1>
-          <span> Will do within 2 weeks</span>
+          <h1>Header</h1>
+          <span> Span</span>
         </main>
       </div>
     </Layout>
