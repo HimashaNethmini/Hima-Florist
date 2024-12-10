@@ -1,3 +1,5 @@
+import React from 'react'
+import css from '../styles/Footer.module.css'
 import { UilFacebook, UilGithub, UilX } from '@iconscout/react-unicons'
 import Image from "next/image";
 
