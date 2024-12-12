@@ -28,5 +28,47 @@
     flex-direction: column;
     font-weight: bold;
     font-size: 8rem;
+}
 
+.right {
+    position: relative;
+}
+
+.imageContainer {
+    width: 38rem;
+    position: relative;
+    top: -5rem;
+    left: -5rem;
+}
+
+.sideimage {
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 19rem;
+    width: max-content;
+}
+
+.sideimage>:nth-child(1) {
+    width: 6rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.sideimage>:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.sideimage:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
