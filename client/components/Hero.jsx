@@ -2,6 +2,8 @@ import css from "../styles/Hero.module.css";
 import Image from "next/image";
 import xmas from "../assets/xmas.png";
 import jingle from "../assets/jingle.png";
+import HeroImage from "../assets/flowerimage.png";
+import rose from "../assets/rose.jpg";
 
 const Hero = () => {
   return (
@@ -18,11 +20,27 @@ const Hero = () => {
           <Image src={jingle} alt="" height={40} width={40} />
         </div>
 
-        <button className="btn" >Get Started</button>
+        <button className="btn">Get Started</button>
       </div>
 
       {/* right side */}
-      <div className={css.right}></div>
+      <div className={css.right}>
+        <div className={css.imageContainer}>
+          <Image src={HeroImage} alt="hero image" />
+        </div>
+
+        <div className={sideimage}>
+          <div>
+            <Image src={rose} alt="" objectFit="cover" layout="intrinsic" />
+          </div>
+
+          <div className={css.details}>
+            <span>Divine Rose</span>
+            <span>
+              <span style={{ color: "var(--themeRed)" }}>$</span> 29.99</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
