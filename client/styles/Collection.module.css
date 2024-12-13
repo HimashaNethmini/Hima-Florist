@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.heading>:nth-child(1) {
+    color: var(--themeRed);
+}
+
+.heading>:nth-child(2) {
+    font-style: italic;
+    font-size: 0.5rem;
+    width: 20px;
+    overflow-wrap: break-word;
+}
