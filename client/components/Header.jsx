@@ -9,7 +9,7 @@ const Header = () => {
 
       {/* logo side */}
       <div className={css.logo}>
-        <Image src={Logo} alt="" width={100} height={100} />
+        <Image src={Logo} alt="" width={150} height={150} />
         <span>Hima Florist</span>
       </div>
 
@@ -23,8 +23,8 @@ const Header = () => {
       {/*  cart side*/}
       <div className={css.cartSide}>
         <div className={css.cart}>
-          <MdOutlineAddShoppingCart size={35} color="#2E2E2E" />
-          <div className={css.badge}>1</div>
+          <MdOutlineAddShoppingCart size={45} />
+          <div className={css.badge}>2</div>
         </div>
       </div>
     </div>
