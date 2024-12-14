@@ -54,6 +54,8 @@ a {
 }
 
 .btn {
+  margin-top: 7rem;
+  margin-left: 0.5rem;
   width: max-content;
   padding: 1rem;
   border-radius: 4rem;
