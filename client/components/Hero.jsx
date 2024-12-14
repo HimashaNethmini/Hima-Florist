@@ -17,7 +17,9 @@ const Hero = () => {
         <div className={css.containerText}>
           <span> To Your</span>
           <span style={{ color: "var(--themeRed)" }}>Doorsteps </span>
-          <Image src={jingle} alt="" height={40} width={40} />
+          <Image src={jingle} alt="" height={80} width={55} />
+          <Image src={jingle} alt="" height={60} width={45} />
+          <Image src={jingle} alt="" height={60} width={45} />
         </div>
 
         <button className="btn">Get Started</button>
@@ -26,18 +28,18 @@ const Hero = () => {
       {/* right side */}
       <div className={css.right}>
         <div className={css.imageContainer}>
-          <Image src={HeroImage} alt="hero image" />
+          <Image src={HeroImage} alt="hero image" objectFit="cover" layout="intrinsic" />
         </div>
 
-        <div className={sideimage}>
+        <div className={css.sideimage}>
           <div>
-            <Image src={rose} alt="" objectFit="cover" layout="intrinsic" />
+            <Image src={rose} alt="" style={{objectFit:"cover"}} layout="intrinsic" />
           </div>
 
           <div className={css.details}>
             <span>Divine Rose</span>
             <span>
-              <span style={{ color: "var(--themeRed)" }}>$</span> 29.99</span>
+              <span style={{color:"var(--themeRed)"}}>$</span> 29.99</span>
           </div>
         </div>
       </div>
