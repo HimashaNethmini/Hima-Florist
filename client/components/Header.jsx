@@ -1,7 +1,7 @@
-import React from 'react'
 import css from '../styles/Header.module.css'
-import Logo from "../assets/Logo.png";
-import { UilShoppingBag } from '@iconscout/react-unicons'
+import Logo from "../assets/1.png"
+import { MdOutlineAddShoppingCart } from "react-icons/md";
+import Image from 'next/image'
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
 
       {/* logo side */}
       <div className={css.logo}>
-        <Image src={Logo} alt="" width={50} height={50} />
+        <Image src={Logo} alt="" width={100} height={100} />
         <span>Hima Florist</span>
       </div>
 
@@ -23,7 +23,7 @@ const Header = () => {
       {/*  cart side*/}
       <div className={css.cartSide}>
         <div className={css.cart}>
-          <UilShoppingBag size={35} color="#2E2E2E" />
+          <MdOutlineAddShoppingCart size={35} color="#2E2E2E" />
           <div className={css.badge}>1</div>
         </div>
       </div>
