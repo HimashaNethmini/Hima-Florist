@@ -6,9 +6,9 @@
     align-items: center;
 }
 
-.heading>:nth-child(1) {
+.heading>:nth-child(1){
     color: var(--themeRed);
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .heading>:nth-child(2) {
@@ -16,7 +16,8 @@
 }
 
 .heading>:nth-child(3) {
-    font-size: 1rem;
+    color: var(--themeRed);
+    font-size: 1.2rem;
 }
 
 .features {
@@ -32,16 +33,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
 }
 
-.imageContainer{
-    width: 10rem;
-    height: 10rem;
+.imageContainer {
+    width: 30rem;
+    height: 20rem;
 }
 
-.services>:nth-child(1) {
-    font-size: 1.5rem;
+.services>:nth-child(2) {
+    font-size: 1rem;
     font-weight: bold;
     color: var(--gray);
+    margin-top: -1rem;
+    margin-right: 6rem;
+
 }
