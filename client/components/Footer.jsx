@@ -18,7 +18,6 @@ const Footer = () => {
 
       <div className={css.logo}>
         <Image src = {Logo} alt="" width={100} height={100}/>
-        <span>Hima Florist</span>
       </div>
     </div>
   )
